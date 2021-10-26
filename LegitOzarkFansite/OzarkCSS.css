@@ -1,10 +1,14 @@
 
 body {
-  background-color: white;
+	font-family: verdana, arial, sans-serif;
+	Font-size: 12px;
+  	background-color: white;
 }
 h1 {
-  color: white;
-  text-align: center;
+	font-family: verdana, arial, sans-serif;
+	Font-size: 12px;
+  	color: white;
+  	text-align: center;
 }
 
 p 	{
@@ -23,7 +27,11 @@ a {
   		text-align: left;
 }
 table {
-		max-width: 1000px;
+	font-family: verdana, arial, sans-serif;
+	Font-size: 12px;
+	font-style: normal;
+	line-height: 1.5;
+	max-width: 1000px;
         
 	}
 tr {
@@ -60,6 +68,24 @@ ol {
         line-height: 1.5;
   		text-align: left;
  }
+.bannerbkg {
+	background-color: black;
+}
+.bodypic {
+		height: 100px;
+		width: 800px;
+		margin: 10px 0px;
+		padding: 0px 0px;
+		white-space: pre-wrap;
+}
+.brd1 {
+		border-style: solid;
+        border-width: 1px 0px 0px 0px;
+        border-color: #000000;
+        padding: 0px 10px 0px 10px;
+        margin: 0px 10px 0px 10px;
+        box-sizing: border-box;
+}
 .btopnav {
 	width: 100%;
 	height: 100px;
@@ -67,10 +93,171 @@ ol {
 	margin: 0px 0px;
 	z-index: -1;
 }
+.cast {
+		font-family: verdana, arial, sans-serif;
+        Font-size: 12px;
+        font-style: normal;
+        font-weight: bold;  
+}
+.cell {
+		max-width: 150px;
+        padding: 0px 0px 0px 0px;
+        height: 25px;
+}
+.center {
+        text-align: center;
+        }
 .content1 {
 	max-width: 800px;
 	padding: 0px 20px;
 	margin: 0px 0px;
+}
+.content2 {
+	max-width: 575px;
+	padding: 325px 100px 100px 150px;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+	color: #ffffff !important;
+}
+.content2 .homespcr p {
+	max-width: 575px;
+	color: white;
+}
+.cthumbs {
+		height: 150px;
+		Width: 150px;
+		padding: 0px 0px 0px 0px;
+		border: 1px solid black;	
+}
+.clearfix::after {
+  		content: "";
+  		clear: both;
+  		display: table;
+}
+.dcell {
+		padding: 10px 0px 0px 10px;
+}
+.descr {
+		color: black;
+}
+.fanart_thmb {
+		height: 225px;
+		Width: 400px;
+		padding: 0px 0px 0px 0px;
+		border: 1px solid black;
+}
+.footer {
+	background-color: #000000;
+	width: 100%;
+	height: 75px;
+	padding: 20px 20px 100% 20px;
+	margin: 0px 0px 0px 0px;
+	z-index: -1;
+}
+.hdheadr {
+		width: 800px;
+		padding: 0px 0px 0px 20px;
+}
+.hdheadr h1 {
+		font-family: verdana, arial, sans-serif;
+        Font-size: 24px;
+        font-style: normal;
+        font-weight: bold;
+  		text-align: left;
+		padding: 10px 0px 0px 0px;
+		margin: 0px 0px;
+        color: crimson;
+        display: inline-block;
+}
+.hdlogo {
+	width: 220px;
+	height: 75px;
+	padding: 0px 20px;
+	margin: 0px 0px;
+	background-repeat: no-repeat;
+	float: left;
+	z-index: 1;
+}
+.hero-image {
+  background: url(Assets/Home_Banner_03B.jpg) no-repeat center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+.homebkg {
+  width: 100%;
+  height: 100%;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px;
+  background-image: url(Assets/Home_Banner_02.jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.homebanner {
+  width: 100%;
+  height: auto;
+}
+.homespcr h1 {
+	text-align: left !important;
+	vertical-align: text-bottom;
+	height: 100%;
+}
+.howto {
+		color: crimson;
+		font-weight: bold;
+}
+.left {
+		Max-width: 150px;
+	   text-align: left;
+	   vertical-align: text-top;
+	   }
+.navbar {
+	display: block;
+	padding: 14px 16px;
+}
+.navbar {
+	font-family: verdana, arial, sans-serif;
+	Font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+}
+.navbar:hover {
+	color: white !important;
+	background-color: crimson;
+}
+.navbar:visited {
+	color: #816e01;
+	background-color: crimson;
+}
+.navbar:focus {
+	color: white;
+	background-color: #339966;
+}
+.para {
+	font-family: verdana, arial, sans-serif;
+	Font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+		   
+}
+.para a {
+			   color: crimson;
+}
+.para:hover {
+			   text-decoration: underline;
+			   color: crimson;
+}
+.para:visited {
+				   color: #816e01;		   
+}
+.para:focus {
+		text-decoration: underline;
+		color: #339966;
 }
 .plotcontent {
 	max-width: 800px;
@@ -83,21 +270,38 @@ ol {
 	line-height: 1.5;
 	vertical-align: text-top;
 }
-.content2 {
-	max-width: 575px;
-	padding: 350px 100px 100px 150px;
-	margin: 0px 0px 0px 0px;
-  	text-align: left;
-	color: #ffffff !important;
+.steps {
+	font-family: verdana, arial, sans-serif;
+	Font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: crimson;
+	  text-align: left;
 }
-.content2 .homespcr p {
-	max-width: 575px;
-	color: white;
+.steps:hover {
+	text-decoration: underline;
+	color: crimson;
 }
-.homespcr h1 {
-	text-align: left !important;
-	vertical-align: text-bottom;
-	height: 100%;
+.steps:visited {
+	color: #816e01;
+}
+.steps:focus {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #339966;
+}
+.thcell {
+		max-width: 800px;
+	   max-height: 25px;
+	   text-align: left;
+}
+.thead {
+	   font-family: arial, verdana, sans-serif;
+	   font-style: normal;
+	   font-weight: bold;
+		 color: Black;
+		 text-align: left;
 }
 .topnav {
 	background-color: #000000;
@@ -135,48 +339,6 @@ ol {
 .topnav .active {
   color: crimson;
 }
-.footer {
-	background-color: #000000;
-	width: 100%;
-	height: 75px;
-	padding: 20px 20px 100% 20px;
-	margin: 0px 0px 0px 0px;
-	z-index: -1;
-}
-.hdlogo {
-	width: 220px;
-	height: 75px;
-	padding: 0px 20px;
-	margin: 0px 0px;
-	background-image: url(Assets/Ozark-Fansite-Logo_HdrTransp.png);
-	background-repeat: no-repeat;
-	float: left;
-	z-index: 1;
-}
-.hdheadr {
-		width: 800px;
-		white-space: pre-wrap;
-}
-.hdheadr h1 {
-		font-family: verdana, arial, sans-serif;
-        Font-size: 24px;
-        font-style: normal;
-        font-weight: bold;
-  		text-align: left;
-		padding: 10px 0px 0px 0px;
-		margin: 0px 0px;
-        color: crimson;
-        display: inline-block;
-}
-.navbar {
-        display: block;
-  		padding: 14px 16px;
-}
-.navbar:hover {
-		color: white;
-		background-color: crimson;
-}
-
 .wallz {
         display: block;
   		padding: 0px 0px;
@@ -184,123 +346,4 @@ ol {
 .wallz:hover {
 		color: white;
 		background-color: crimson;
-}
-.para {
-		font-family: verdana, arial, sans-serif;
-        Font-size: 12px;
-        font-style: normal;
-        font-weight: bold;
-        text-decoration: none;
-        color: crimson;
-  		text-align: left;
-	
-}
-.para:hover {
-		font-family: verdana, arial, sans-serif;
-        Font-size: 12px;
-        font-style: normal;
-        font-weight: bold;
-        text-decoration: underline;
-        color: crimson;
-  		text-align: left;
-	
-}
-.brd1 {
-		border-style: solid;
-        border-width: 1px 0px 0px 0px;
-        border-color: #000000;
-        padding: 0px 10px 0px 10px;
-        margin: 0px 10px 0px 10px;
-        box-sizing: border-box;
-}
-
-.cast {
-		font-family: verdana, arial, sans-serif;
-        Font-size: 12px;
-        font-style: normal;
-        font-weight: bold;
-        
-		}
-.cell {
-		max-width: 150px;
-        padding: 0px 0px 0px 0px;
-        height: 25px;
-        }
-.center {
-        text-align: center;
-        }
- .left {
- 		Max-width: 150px;
-        text-align: left;
-        vertical-align: text-top;
-        }
- .dcell {
- 		padding: 10px 0px 0px 10px;
- }
- .thcell {
- 		max-width: 800px;
-        max-height: 25px;
-		text-align: left;
- }
-.thead {
-		font-family: arial, verdana, sans-serif;
-		font-style: normal;
-		font-weight: bold;
-  		color: Black;
-  		text-align: left;
-}
-.cthumbs {
-		height: 150px;
-		Width: 150px;
-		padding: 0px 0px 0px 0px;
-		border: 1px solid black;
-		
-}
-.clearfix::after {
-  		content: "";
-  		clear: both;
-  		display: table;
-}
-.bannerbkg {
-	background-color: black;
-}
-.homebkg {
-  width: 100%;
-  height: 100%;
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px;
-  background-image: url(Assets/Home_Banner_02.jpg);
-  background-color: black;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-.homebanner {
-  width: 100%;
-  height: auto;
-}
-.hero-image {
-  background: url(Assets/Home_Banner_03B.jpg) no-repeat center;
-  background-size: cover;
-  height: 500px;
-  position: relative;
-}
-.bodypic {
-		height: 100px;
-		width: 800px;
-		margin: 10px 0px;
-		padding: 0px 0px;
-		white-space: pre-wrap;
-}
-.fanart_thmb {
-		height: 225px;
-		Width: 400px;
-		padding: 0px 0px 0px 0px;
-		border: 1px solid black;
-}
-.howto {
-		color: crimson;
-		font-weight: bold;
-}
-.descr {
-		color: black;
 }
